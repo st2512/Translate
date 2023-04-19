@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Caveat&family=Delicious+Handrawn&family=Josefin+Sans:ital,wght@0,200;0,400;1,400&family=Signika+Negative&display=swap');
+*{
+    font-family: 'Alkatra', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Signika Negative', sans-serif;  
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #7ccdff;
+}
+.container {
+    width: 690px;
+    border-radius: 7px;
+    padding: 30px;
+    background: #ffffff;
+}
+.wrapper{
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+.wrapper .text-input {
+    display: flex;
+    border-bottom: 1px solid #000000;
+}
+.text-input .to-text {
+    border-radius: 0px;
+    border-left: 1px solid #000000;
+}
+.text-input textarea {
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background: none;
+}
+.controls{
+    list-style: none;
+    padding: 12px 15px ;
+}
+.controls .row.from .icons{
+    padding-right: 15px;
+    border-right: 1px solid #000000 ;
+}
+.controls .row.to .icons{
+    padding-left: 15px;
+    border-left: 1px solid #000000 ;
+}
+.controls, li, .icons, .icons i {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.controls .icons {
+    width: 38%;
+}
+.controls .icons i {
+    width: 50px;
+    color: #000dff;
+    font-size: 14px;
+    cursor: pointer;
+    justify-content: center;
+}
+.controls .row select{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: none;
+}
+.container .exchange {
+    color: #f90000;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    color: #000000;
+    border-radius: 5px;
+    background: #9282ff;
+}
